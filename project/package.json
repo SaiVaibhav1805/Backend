@@ -1,0 +1,17 @@
+{
+  "name": "backend-project",
+  "version": "1.0.0",
+  "description": "a complete end to end backend project to understand all the concepts",
+  "keywords": [
+    "javascript",
+    "mongodb",
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "vaibhav",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
