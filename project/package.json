@@ -1,17 +1,32 @@
 {
   "name": "backend-project",
   "version": "1.0.0",
-  "description": "a complete end to end backend project to understand all the concepts",
+  "description": "A complete end-to-end production backend project",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [
     "javascript",
+    "express",
     "mongodb",
-    "backend"
+    "mongoose",
+    "backend",
+    "node"
   ],
-  "license": "ISC",
   "author": "vaibhav",
-  "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
